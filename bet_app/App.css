@@ -1,0 +1,48 @@
+.App {
+
+}
+
+.d-flex {
+  display: flex;
+}
+.column {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+.align-center{
+  align-items: center;
+}
+.card {
+  height: 200px;
+  width: 150px;
+  border-radius: 25px;
+  border: solid grey 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+.img {
+  height: 140px;
+  width: 140px;
+}
+
+.box {
+  height: 200px;
+  width: 150px;
+  border-radius: 25px;
+  margin: 30px;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 5px;
+  width: 170px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
