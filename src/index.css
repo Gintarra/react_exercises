@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.box {
+    border: solid black 1px;
+    border-radius: 10px;
+    width: 400px;
+    margin: 10px;
+    padding: 20px;
+    height: 500px;
+}
+
+.btn {
+    padding: 10px;
+    width: 150px;
+    margin-bottom: 100px;
+}
+
+* {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    width: 256px;
+    text-align: center;
+    border: 10px solid black;
+    background: black;
+    border-radius: 5px;
+}
+
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(60px, auto);
+}
+
+input[type="text"]{
+    background-color: black;
+    height: 75px;
+    width: 249px;
+    border: 0;
+    color: white;
+    text-align: right;
+    font-size: 25px;
+}
+
+#clear {
+    grid-column: 1/3;
+    grid-row: 1;
+    color: #262834;
+}
+
+#result {
+    grid-column: 3/5;
+    grid-row: 5;
+    color: #262834;
+}
+
+#backspace {
+    color: #262834
+}
+
+button {
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: #262834;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+    outline: none;
+}
+
+.highlight {
+    background-color: #8d979a;
+}
+
+.animalImg {
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+}
+
+.nextBtn {
+    padding: 10px;
+    width: 150px;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+
+.box2 {
+    width: 400px;
+    margin: 10px;
+    padding: 20px;
+    height: 370px;
+}
+
+.btnText {
+    height: 40px;
+    width: 250px;
+}
