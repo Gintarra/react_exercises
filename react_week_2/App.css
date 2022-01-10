@@ -1,0 +1,87 @@
+.navBar {
+    background-color: grey;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+}
+.homeBox{
+    background-image: url("https://cdn.pixabay.com/photo/2019/04/05/20/17/web-4105949_1280.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1200px;
+}
+.createBtn {
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #bada5e;
+    margin-top: 70px;
+    box-shadow: 5px 5px 15px 1px rgba(0,0,0,0.69);
+}
+.createBtn:hover {
+    transform: scale(1.1);
+    background-color: #96c737;
+}
+
+.updateBtn:hover{
+    transform: scale(1.1);
+    background-color: #56e351;
+}
+
+.createBox {
+    background-color: #d6f3c3;
+    padding: 100px 0 100px 0;
+}
+
+.allBox{
+    background-color: #d6f3c3;
+    padding: 100px 0 100px 0;
+}
+.updateBtn {
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 70%;
+    border-radius: 20px;
+    background-color: #8bea87;
+}
+.mt {
+    margin-top: 40px;
+}
+input {
+    padding: 10px;
+    margin: 15px;
+    width: 500px;
+    font-size: 20px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+
+/*Flexes classes*/
+.d-flex {
+    display: flex;
+}
+.space-btw {
+    justify-content: space-between;
+}
+.space-ev {
+    justify-content: space-evenly;
+}
+.column {
+    flex-direction: column;
+}
+.justify-center {
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.wrap{
+    flex-wrap: wrap;
+}
