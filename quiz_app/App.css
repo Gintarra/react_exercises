@@ -1,0 +1,50 @@
+.App {
+}
+
+.box {
+    border-radius: 20px;
+    height: 40px;
+    width: 50%;
+    box-shadow: 5px 5px 15px 0px #424242;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, rgba(119, 113, 183, 0.8) 1%, rgba(108, 103, 159, 0.8) 69%);
+    margin: 20px;
+}
+
+.box:hover, .btn:hover {
+    background: radial-gradient(circle, rgba(179, 177, 190, 0.8) 1%, rgba(134, 134, 190, 0.8) 69%);
+    cursor: pointer;
+}
+
+.gameOver, .begin {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.btn {
+    padding: 10px;
+    width: 160px;
+    height: 50px;
+    border-radius: 10px;
+    background: radial-gradient(circle, rgba(119, 113, 183, 0.8) 1%, rgba(108, 103, 159, 0.8) 69%);
+    border: none;
+    box-shadow: 5px 5px 15px 0px #424242;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+.align-center{
+    align-items: center;
+}
+
