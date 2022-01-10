@@ -1,0 +1,162 @@
+.navBar {
+    font-weight: bold;
+    font-size: 20px;
+    height: 80px;
+    border: solid black 2px;
+    margin: 5px;
+}
+
+.sideBar {
+    font-weight: bold;
+    font-size: 20px;
+    height: 1100px;
+    border: solid black 2px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 5px;
+}
+
+.img {
+    width: 650px;
+    height: 422px;
+}
+
+.grow4 {
+    flex: 4;
+}
+
+.grow1 {
+    flex: 1;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.space-ev {
+    justify-content: space-evenly;
+}
+
+.space-btw {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.imgG {
+    height: 400px;
+    width: 600px;
+    margin: 5px;
+}
+
+.box {
+    height: 600px;
+    width: 350px;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.userImg {
+    height: 155px;
+    width: 155px;
+    border-radius: 50%;
+}
+
+.stars {
+    height: 50px;
+    width: 50px;
+}
+.linkDiv {
+    font-size: 20px;
+    font-weight: bold;
+}
+.reviewBox {
+    height: 600px;
+    width: 600px;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+textarea {
+    height: 300px;
+    width: 600px;
+    border: none;
+    background-color: #e5e5e5;
+    resize: none;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+input {
+    margin: 10px;
+}
+
+.card{
+    width: auto;
+    height: auto;
+    border: solid 2px black;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.reviewsCard {
+    height: 600px;
+    width: 600px;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+.post {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+/*FAKE API*/
+.sideBar2 {
+    height: auto;
+    width: 300px;
+    border: solid 2px black;
+}
+
+button {
+    padding: 10px;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.productImg {
+    height: 200px;
+    width: 200px;
+}
+
+.box2 {
+    height: 600px;
+    width: 350px;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
