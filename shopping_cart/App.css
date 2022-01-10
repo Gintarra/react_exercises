@@ -1,0 +1,188 @@
+.d-flex {
+    display: flex;
+}
+
+.space-btw {
+    justify-content: space-between;
+}
+
+.space-ev {
+    justify-content: space-evenly;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.toolbar {
+    padding: 20px;
+    width: 130px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.card {
+    height: 480px;
+    width: 240px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 2px #4D4D4D;
+    padding: 5px;
+}
+
+.card img {
+    height: 300px;
+    width: 240px;
+    border-radius: 10px;
+}
+
+.homeBox {
+    background-color: #a5d0e1;
+    width: 100%;
+    height: 1000px;
+    padding: 10px;
+}
+
+.add {
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card2 {
+    height: 250px;
+    width: 1000px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 2px #4D4D4D;
+    padding: 5px;
+}
+
+.card2 img {
+    height: 240px;
+    width: 240px;
+    border-radius: 10px;
+}
+
+.tree {
+    background-image: url("https://torange.biz/photofxnew/20/HD/cover-red-christmas-background-20193.jpg");
+    width: auto;
+    height: 1200px;
+    background-position: center;
+    background-size: cover;
+    padding: 60px 60px 120px 60px;
+}
+
+.position {
+
+}
+
+.spruce {
+    height: 700px;
+    width: 600px;
+    right: 700px;
+    position: absolute;
+    top: 0;
+    display: block;
+}
+
+.toy1 {
+    width: 50px;
+    height: 50px;
+    z-index: 2;
+    position: relative;
+    top: -60px;
+    left: 150px
+}
+
+.toy11 {
+    width: 60px;
+    height: 60px;
+    z-index: 2;
+    position: relative;
+    top: -60px;
+    left: 150px
+}
+
+.d-none {
+    display: none;
+}
+
+.giftOne {
+    height: 100px;
+    width: 100px;
+
+}
+
+/*///chat*/
+.box {
+    height: 1000px;
+    width: 600px;
+    border: black solid 2px;
+    padding: 10px;
+    flex-wrap: wrap;
+    display: flex;
+}
+.box2 {
+    height: 615px;
+    width: 600px;
+    border: black solid 2px;
+    padding: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    margin-left: 10px;
+}
+
+
+.colorCircle {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: solid black 1px;
+    margin: 2px;
+}
+textarea {
+    height: 300px;
+    width: 600px;
+    border: black solid 2px;
+    padding: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 624px;
+    padding: 10px;
+    height: 40px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: grey;
+}
+
+.colorCircle:hover {
+    transform:scale(1.2);
+
+}
+button:hover {
+    background-color: #4d4c4c;
+    color: #f6f5f5;
+}
+
